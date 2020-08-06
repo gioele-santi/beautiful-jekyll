@@ -2,14 +2,16 @@
 layout: post
 title: Happy birthday
 subtitle: You already know coding, you just didn't realize!
+cover-img: /assets/img/happy-birthday.png
+thumbnail-img: /assets/img/happy-birthday.png
+share-img: /assets/img/happy-birthday.png
 gh-repo: gioele-santi/gioele_dev
 gh-badge: []
 tags: [coding, music]
 comments: true
 ---
 
-Coding is giving instructions to a computer to solve a problem or complete a task.
-
+Coding is giving instructions to a computer to solve a problem or complete a task.  
 We can write more complex definitions and go deep with details but now I want to focus on what you already know.
 
 The key is to take a **complex action** and subdivide it in a **series of simple actions**.
@@ -60,3 +62,5 @@ That's because we replace `[name]` with the actual name of the person.
 `[name]` is what we call a **variable**. It allows us generalize lyrics or a piece of code and reuse it in different situations.
 
 This is just a first step, but realizing that the principles of coding are all around us, will be a great help in understanding the world of programming. 
+
+[Image from WikiMedia Commons](https://commons.wikimedia.org/wiki/File:The_Everyday_Song_Book_-_1922_-_Good_Morning.png)
