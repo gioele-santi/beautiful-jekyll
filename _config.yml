@@ -72,6 +72,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
+absolute_url: "https://gioele.dev"
 url-pretty: "gioele.dev"
 
 # Create a "tags" index page and make tags on each post clickable
