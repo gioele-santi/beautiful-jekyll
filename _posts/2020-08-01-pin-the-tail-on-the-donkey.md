@@ -33,5 +33,28 @@ So we know the concept of **loop**. Let's make an example, but to make it undest
 | 4 	|   	|   	|   	|   	|   	|   	|   	|   	|
 | 5 	|   	|   	|   	|   	|   	|   	|   	|   	|
 
+At the beginning Tail (T) is in position **(A,1)** while the Donkey's back (D) is in position **(F,3)**.  
+The commands for the blindfolded player will be: **right**, **right**, **right**, **right**, **right**, **down**, **down**.
+
+But we can also **generalize** these commands, we just have to think about what happens in the mind of the observer:
+{% highlight javascript linenos %}
+if D is on the right of T:
+    while D is on the right:
+        move T to the right
+else if D is on the left of T:
+    while D is on the left:
+        move T to the left
+if D is below T:
+    while D is below:
+        move T down
+else if D is above T:
+    while D is above:
+        move T up
+{% endhighlight %}
+
+As you can see this is not a solution to a single problem, but it is a **generic approach** that can be used **for any position of T and D**.
+
+If you think about it, we can rewrite the same instructions in much less lines, but optimization deserves a whole chapter on its own.
+
 
 [Image from WikiMedia Commons](https://commons.wikimedia.org/wiki/File:Pin_the_Tail_On_the_Donkey-example.jpg)
