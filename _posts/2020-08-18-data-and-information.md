@@ -40,4 +40,4 @@ It means **American Standard Code for Information Interchange**. Basically it is
 - 79 ⮕ O
 - 33 ⮕ !
 
-Today software uses Unicode and numbers are represented as binary code on computers but that's a completely different story for another post.
+Today software uses Unicode to represent text and numbers are actually saved as binary code on computers but that's a completely different story for another post.
