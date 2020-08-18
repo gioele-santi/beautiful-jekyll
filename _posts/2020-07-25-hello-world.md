@@ -5,7 +5,7 @@ subtitle: A brief introduction
 gh-repo: gioele-santi/gioele_dev
 gh-badge: []
 tags: []
-comments: true
+comments: false
 ---
 
 I am Gioele.
