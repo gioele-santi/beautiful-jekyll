@@ -19,3 +19,5 @@
 {% assign key = month_keys[m] %}
 {% assign month = months[key] %}
 {% assign year = _date | date: "%Y" %}
+
+{% t blog.posted_on %} {% tf date_format.html %}
