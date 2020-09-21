@@ -15,7 +15,7 @@
 {% endif %}
 
 {% assign m = _date | date: "%-m" | minus: 1 %}
-{% assign day = _date | date: "%d" %}
+{% assign day = _date | date: "%-d" %}
 {% assign key = month_keys[m] %}
 {% assign month = months[key] %}
 {% assign year = _date | date: "%Y" %}

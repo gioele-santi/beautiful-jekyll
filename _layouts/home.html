@@ -20,8 +20,7 @@ layout: page
     </a>
 
     <p class="post-meta">
-      {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-      {% t blog.posted_on %} {{ post.date | date: date_format }}
+        {% include localized-date.html %}
     </p>
 
     <div class="post-entry-container">
