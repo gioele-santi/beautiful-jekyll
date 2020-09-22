@@ -4,8 +4,6 @@ global:
   english: English
   japanese: 日本語
   copyright: All rights reserved.
-  sitename: gioele.dev
-  description: Coding, education, music, games and other things I like...
 pages:
   home: Home
   tag_page: Tag Index
