@@ -1,4 +1,5 @@
 global:
+  locale: it
   italian: Italiano
   english: English
   japanese: 日本語
@@ -21,15 +22,6 @@ blog:
 homepage:
   older: Post vecchi
   newer: Post nuovi
-comments:
-  comment: Commento
-  leave: Lascia un Commento
-  email_note: Il tuo indirizzo email non sarà pubblicato. I campi richiesti sono segnati con *
-  markdown_note: Markdown è supportato.
-  name: Nome
-  email: Indirizzo email
-  website: Sito web (opzionale)
-  button: Invia Commento
 months:
   jan: Gennaio
   feb: Febbraio
