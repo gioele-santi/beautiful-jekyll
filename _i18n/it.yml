@@ -8,6 +8,7 @@ pages:
   home: Home
   tag_page: Indice dei Tag
   about: Chi sono
+  about_subtitle: Alcune informazioni extra su di me
   portfolio: Portfolio
 blog:
   readmore: Leggi di più
