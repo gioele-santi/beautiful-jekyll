@@ -21,6 +21,15 @@ blog:
 homepage:
   older: Older posts
   newer: Newer posts
+comments:
+  comment: Comment 
+  leave: Leave a Comment
+  email_note: Your email address will not be published. Required fields are marked *
+  markdown_note: Markdown is supported.
+  name: Name
+  email: Email address
+  website: Website (optional)
+  button: Submit Comment
 months:
   jan: January
   feb: February
