@@ -1,6 +1,3 @@
-{% capture override_title %}{% t global.about %}{% endcapture %}
-{% capture override_subtitle %}{% t global.about_subtitle %}{% endcapture %}
-
 My name is Gioele. 
 I am a programmer and teacher.
 

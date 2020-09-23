@@ -1,6 +1,3 @@
-{% capture override_title %}{% t global.about %}{% endcapture %}
-{% capture override_subtitle %}{% t global.about_subtitle %}{% endcapture %}
-
 Mi chiamo Gioele. 
 Sono un programmatore ed un insegnante.
 
