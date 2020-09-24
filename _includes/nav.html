@@ -30,6 +30,19 @@
           </li>
         {%- endif -%}
       {%- endfor -%}
+    
+        <!-- Language links -->
+            {% for language in site.languages %}
+            {% unless site.lang == language %}
+            {% if page.namespace and page.namespace != 'blog' %}
+            {% capture link %}{{page.namespace}} {{language}}{% endcapture %}
+            <li class="nav-item"><a class="nav-link" href="{% tl {{ link }} %}"><span class="lang-sm" lang="{{language}}"></span></a></li>
+            {% else %}
+            <li class="nav-item"><a class="nav-link" href="{{ site.url }}{% unless language == site.languages[0] %}/{{ language }}{% endunless %}{{ page.url | replace:'index.html',''}}"><span class="lang-sm" lang="{{language}}"></span></a></li>
+            {% endif %}
+            {% endunless %}
+            {% endfor %}
+        
     </ul>
   </div>
 
