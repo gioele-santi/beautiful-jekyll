@@ -14,7 +14,7 @@ The other player can see the drawing and must help giving **instructions**.
 
 ### Let's compare with computers
 
-A computer is **dumb** and can do a limited set of actions. You may think your computer or smartphone is very powerful but the core is still a poor *dumb* processor moving bits and making sums).
+A computer is **dumb** and can do a limited set of actions. You may think your computer or smartphone is very powerful but the core is still a poor *dumb* processor moving bits and making sums.
 
 The only way to make a computer work is giving it instructions. So programmers must use the set of available actions and combine them in different ways thus making more complex actions.
 

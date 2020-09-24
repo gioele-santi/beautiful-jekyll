@@ -1,0 +1,49 @@
+global:
+  locale: en
+  italian: Italiano
+  english: English
+  japanese: 日本語
+  copyright: All rights reserved.
+pages:
+  home: Home
+  tag_page: Tag Index
+  about: About me
+  about_subtitle: Some extra information about me
+  portfolio: Portfolio
+blog:
+  readmore: Read more
+  posted_on: Posted on
+  tags: Tags
+  tag: Tag
+  next: Next post
+  previous: Previous post
+  shareon: Share on
+homepage:
+  older: Older posts
+  newer: Newer posts
+months:
+  jan: January
+  feb: February
+  mar: March
+  apr: April
+  may: May
+  jun: June
+  jul: July
+  aug: August
+  sep: September
+  oct: October
+  nov: November
+  dec: December
+months_short:
+  jan: Jan
+  feb: Feb
+  mar: Mar
+  apr: Apr
+  may: May
+  jun: Jun
+  jul: Jul
+  aug: Aug
+  sep: Sep
+  oct: Oct
+  nov: Nov
+  dec: Dec

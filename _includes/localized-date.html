@@ -1,0 +1,23 @@
+{% comment %} Generate localized date {% endcomment %}
+{% assign month_keys = "jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec" | split: "|" %}
+{% assign months = site.translations[site.lang]["months"] %}
+
+{% assign _date = '' %}
+
+{% if page.layout == 'post' %}
+
+    {% assign _date = page.date %}
+
+{% else %}
+
+    {% assign _date = post.date %}
+
+{% endif %}
+
+{% assign m = _date | date: "%-m" | minus: 1 %}
+{% assign day = _date | date: "%-d" %}
+{% assign key = month_keys[m] %}
+{% assign month = months[key] %}
+{% assign year = _date | date: "%Y" %}
+
+{% t blog.posted_on %} {% tf date_format.html %}
